@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:text="ID:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:text="Model:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/model"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:text="Price:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/computer_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_toEndOf="@+id/id"
+        android:gravity="center"
+        android:text="ComputerId"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/computer_model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/model"
+        android:layout_margin="10dp"
+        android:layout_toEndOf="@+id/model"
+        android:gravity="center"
+        android:text="Model"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/computer_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/price"
+        android:layout_margin="10dp"
+        android:layout_toEndOf="@+id/price"
+        android:gravity="center"
+        android:text="Price"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
